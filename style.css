@@ -2,7 +2,7 @@
   --primaryColor: #071838;
   --secondaryColor: #29c1d6;
   --navColor: rgb(5, 74, 86);
-  --hoverColor:rgb(2, 29, 34);
+  --hoverColor: rgb(2, 29, 34);
 }
 
 * {
@@ -49,11 +49,11 @@ body {
   gap: 20px;
   padding: 10px;
 }
-.elem h2{
+.elem h2 {
   font-weight: 500;
 }
 .box {
-  padding:15px 20px;
+  padding: 15px 20px;
   color: black;
   font-weight: 700;
   font-size: 20px;
@@ -71,7 +71,7 @@ body {
   gap: 10px;
   /* overflow-y: scroll; */
 }
-.bubble{
+.bubble {
   width: 60px;
   height: 60px;
   background-color: var(--navColor);
@@ -84,13 +84,119 @@ body {
   font-weight: 700;
   /* font-size: 100; */
 }
-.bubble:hover{
+.bubble:hover {
   cursor: pointer;
   background-color: var(--hoverColor);
 }
 
-/* @media only screen and (max-width:445px) {
-  body{
-
+@media only screen and (max-width: 768px) {
+  body {
+    width: 100%;
+    height: 100%;
   }
-} */
+  #panel {
+  overflow: hidden;
+  background-color: var(--secondaryColor);
+  height: 80%;
+  width: 80%;
+  border-radius: 10px;
+}
+#ptop {
+  width: 100%;
+  height: 100px;
+  padding: 0px 30%;
+  background-color: var(--navColor);
+  display: flex;
+  justify-content: space-evenly;
+}
+.elem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 2px; */
+  width: 70%;
+  gap: 7px;
+  padding: 10px 30px;
+}
+.elem h2 {
+  font-weight: 0;
+}
+
+.box {
+  padding: 12px;
+  color: black;
+  font-weight: 400;
+  font-size: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+.pbtm {
+  width: 100%;
+  height: calc(100% - 100px);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  overflow: auto;
+}
+}
+
+
+@media only screen and (min-width:769px) and (max-width:1024px)  {
+
+  body {
+    width: 100%;
+    height: 100%;
+  }
+  #panel {
+  overflow: hidden;
+  background-color: var(--secondaryColor);
+  height: 80%;
+  width: 80%;
+  border-radius: 10px;
+}
+#ptop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  padding: 2px 13%;
+  background-color: var(--navColor);
+  
+}
+.elem {
+  display: flex;
+  /* align-items: center; */
+  /* flex-wrap: nowrap; */
+  margin: 2px;
+  width: 80%;
+  gap: 10px;
+  padding: 42px;
+}
+.elem h2 {
+  font-weight: 0;
+}
+
+.box {
+  padding: 12px;
+  color: black;
+  font-weight: 400;
+  font-size: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+.pbtm {
+  width: 100%;
+  height: calc(100% - 100px);
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  overflow: auto;
+}
+}
