@@ -1,4 +1,6 @@
 # Bubble Game
+![Bubble Game Screenshot](![Screenshot (138)](https://github.com/Aniket7896/Bubble_Game/assets/128688552/285d01dd-1a50-4501-9b58-d8ff90c4b99b)
+)
 
 Bubble Game is an interactive web-based game that challenges your reflexes and number recognition skills. Pop bubbles with the right numbers, increase your score, and race against the clock to achieve the highest score. Test your aim, beat your high score, and have a blast while playing!
 
@@ -28,11 +30,11 @@ The Bubble Game is available for play online, ready to test your skills and refl
 ## Connect with Me
 Feel free to explore Bubble Game and connect with me for any feedback, suggestions, or collaboration opportunities.
 
-- LinkedIn: [Your LinkedIn Profile](#your-linkedin-profile)
-- Email: [Your Email Address](#your-email-address)
+- LinkedIn [Your LinkedIn Profile](https://www.linkedin.com/in/aniket-dubey-2a6180242/)
+- Email: [Your Email Address](anidubey7896@gmail.com)
 
 Your feedback and support are greatly appreciated. Enjoy playing Bubble Game and challenging your reflexes!
 
-![Bubble Game Screenshot](#add-the-link-to-your-screenshot-image)
+
 
 Thank you for trying out Bubble Game! Have fun and happy popping!
