@@ -1,12 +1,86 @@
+:root {
+  --primaryColor: #071838;
+  --secondaryColor: #29c1d6;
+  --navColor: rgb(5, 74, 86);
+  --hoverColor:rgb(2, 29, 34);
+}
+
 * {
   margin: 0;
   padding: 0;
-  font-family: "Gilroy";
+  font-family: sans-serif;
   box-sizing: border-box;
 }
+/*  Arial, Helvetica, */
 
 html,
 body {
   width: 100%;
   height: 100%;
+}
+#main {
+  background-color: var(--primaryColor);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#panel {
+  overflow: hidden;
+  background-color: var(--secondaryColor);
+  height: 80%;
+  width: 80%;
+  border-radius: 10px;
+}
+#ptop {
+  width: 100%;
+  height: 100px;
+  padding: 0px 30%;
+  background-color: var(--navColor);
+  display: flex;
+  justify-content: space-around;
+}
+.elem {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  width: 30%;
+  gap: 20px;
+  padding: 10px;
+}
+.elem h2{
+  font-weight: 500;
+}
+.box {
+  padding:15px 20px;
+  color: black;
+  font-weight: 700;
+  font-size: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+.pbtm {
+  width: 100%;
+  height: calc(100% - 100px);
+  padding: 10px;
+  display: flex;
+  gap: 10px;
+}
+.bubble{
+  width: 60px;
+  height: 60px;
+  background-color: var(--navColor);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--secondaryColor);
+  padding: 10px;
+  font-weight: 700;
+  /* font-size: 100; */
+}
+.bubble:hover{
+  cursor: pointer;
+  background-color: var(--hoverColor);
 }
