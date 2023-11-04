@@ -65,7 +65,9 @@ body {
   height: calc(100% - 100px);
   padding: 10px;
   display: flex;
+  flex-wrap: wrap;
   gap: 10px;
+  /* overflow-y: scroll; */
 }
 .bubble{
   width: 60px;
