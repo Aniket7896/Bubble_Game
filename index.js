@@ -1,7 +1,13 @@
-let timer = 10;
+let timer = 60;
 let score=0;
+let randomNum=0;
+
+let increaseScore=()=>{
+    score+=10;
+    document.querySelector("#scoreVal").textContent=score;
+}
 const getNewHit=()=>{
-    let randomNum=Math.floor(Math.random()*10);
+     randomNum=Math.floor(Math.random()*10);
     document.querySelector("#hitVal").textContent=randomNum;
     
 }
@@ -26,10 +32,22 @@ const timerFun=()=>{
         }
         else{
             clearInterval(timerVal);
+             document.querySelector("#hitVal").textContent = 0;
+            document.querySelector(".pbtm").innerHTML=`<h1>Game Over</h1>`
         }
     },1000)
 }
 
+document.querySelector("#bubbleVal").addEventListener("click",function(val){
+   let bubbleNum = Number(val.target.textContent);
+   if( randomNum === bubbleNum){
+    increaseScore();
+    fun1();
+    getNewHit();
+   }
+ 
+})
 fun1();
-timerFun();
 getNewHit();
+timerFun();
+

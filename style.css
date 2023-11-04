@@ -65,6 +65,8 @@ body {
   height: calc(100% - 100px);
   padding: 10px;
   display: flex;
+  justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   gap: 10px;
   /* overflow-y: scroll; */
@@ -86,3 +88,9 @@ body {
   cursor: pointer;
   background-color: var(--hoverColor);
 }
+
+/* @media only screen and (max-width:445px) {
+  body{
+
+  }
+} */
