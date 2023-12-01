@@ -14,7 +14,7 @@ const getNewHit=()=>{
 
 const fun1 = () => {
   var clutter = "";
-  for (var i = 1; i <= 102; i++) {
+  for (var i = 1; i <= 95; i++) {
     let randomNum=Math.floor(Math.random()*10);
     clutter += ` <div class="bubble">
            ${randomNum}
